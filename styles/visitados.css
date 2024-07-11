@@ -1,0 +1,38 @@
+.visitados{
+    background: var(--azul);
+    padding: 1em 0; 
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+}
+.visitados__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.visitados__lista-links{
+    text-decoration: none;
+    background-color: var(--laranja);
+    padding: 1.5em 1.5em;
+    margin: 1em 0.4em;
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 700;
+}
+.visitados__titulo{
+    color: var(--branco);
+    margin: 1em 0 1.5em 0;
+}
+
+@media screen and (min-width: 1024px){
+    .visitados,
+    .visitados__lista-links{
+        font-size: 24px;
+    }
+}
+@media screen and (min-width: 1728px){
+
+    .visitados{
+        padding: 1em 18em;
+    }
+}
